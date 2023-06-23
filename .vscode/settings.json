@@ -12,6 +12,9 @@
 	// Keep in sync with [EditorConfig][]!
 	"files.eol": "\n",
 
+	// Keep in sync with [EditorConfig][]!
+	"files.insertFinalNewline": true,
+
 }
 
 // [EditorConfig]: https://editorconfig.org/

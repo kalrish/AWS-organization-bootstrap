@@ -6,6 +6,7 @@ root = true
 [*]
 # Keep in sync with `.vscode/settings.json`!
 end_of_line = lf
+# Keep in sync with `.vscode/settings.json`!
 insert_final_newline = true
 
 [*.json]
