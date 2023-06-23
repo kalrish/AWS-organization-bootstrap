@@ -11,6 +11,11 @@ However, native configuration is better.
 	// Keep in sync with `../.editorconfig`!
 	"files.insertFinalNewline": true,
 
+	"[javascript]": {
+		// Keep in sync with `../.editorconfig`!
+		"editor.insertSpaces": false,
+	},
+
 	"[json]": {
 		// Keep in sync with `../.editorconfig`!
 		"editor.insertSpaces": false,
