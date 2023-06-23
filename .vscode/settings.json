@@ -1,0 +1,16 @@
+// [settings][Visual Studio Code workspace settings] for [Visual Studio Code][]
+// https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
+
+// Although
+// [EditorConfig][] supports some of these settings
+// and
+// [Visual Studio Code][] can load [EditorConfig][] with the [extension `EditorConfig.EditorConfig`][Visual Studio Code extension EditorConfig.EditorConfig],
+// native configuration is preferable.
+
+{
+}
+
+// [EditorConfig]: https://editorconfig.org/
+// [Visual Studio Code]: https://code.visualstudio.com/
+// [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+// [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
