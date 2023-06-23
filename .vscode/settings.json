@@ -15,9 +15,18 @@
 	// Keep in sync with [EditorConfig][]!
 	"files.insertFinalNewline": true,
 
+	// settings for [JSON][] content
+	"[json]": {
+
+		// Keep in sync with [EditorConfig][]!
+		"editor.insertSpaces": false,
+
+	},
+
 }
 
 // [EditorConfig]: https://editorconfig.org/
+// [JSON]: https://www.json.org/
 // [Visual Studio Code]: https://code.visualstudio.com/
 // [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 // [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
