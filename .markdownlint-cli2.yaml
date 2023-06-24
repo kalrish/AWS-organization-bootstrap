@@ -1,5 +1,11 @@
 ---
 
+config:
+    # Allow up to two consecutive blank lines
+    # https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md
+    MD012:
+      maximum: 2
+
 globs:
     - '**/*.md'
 
