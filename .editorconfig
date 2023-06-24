@@ -16,6 +16,7 @@ indent_style = tab
 indent_style = tab
 
 [*.ts]
+# Keep in sync with `.vscode/settings.json`!
 indent_style = tab
 
 [*.yaml]
