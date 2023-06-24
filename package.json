@@ -8,5 +8,9 @@
 	},
 	"description": "foo bar",
 	"files": [
-	]
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kalrish/AWS-organization-bootstrap.git"
+	}
 }
