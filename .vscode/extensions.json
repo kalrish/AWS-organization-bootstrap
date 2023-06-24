@@ -8,6 +8,7 @@
 		"arcanis.vscode-zipfs",
 		"DavidAnson.vscode-markdownlint",
 		"dbaeumer.vscode-eslint",
+		"GitHub.vscode-github-actions",
 		"redhat.vscode-yaml",
 	],
 
