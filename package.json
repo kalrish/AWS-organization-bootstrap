@@ -7,6 +7,9 @@
 		"url": "https://www.djsp.eu/"
 	},
 	"description": "foo bar",
+	"devDependencies": {
+		"markdownlint-cli2": "^0.8.1"
+	},
 	"engines": {
 		"node": ">= 16.20.0"
 	},
