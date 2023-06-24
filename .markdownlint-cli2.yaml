@@ -5,6 +5,12 @@ config:
     # https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md
     MD012:
       maximum: 2
+    # Allow lines of any length, because hard wrapping:
+    # - mixes up content and presentation and is therefore conceptually wrong;
+    # - requires rewrapping after most changes, which is cumbersome to do manually and otherwise requires appropriate tooling and configuration; and
+    # - results in bigger diffs than soft wrapping and semantic line breaks, at least with git's diff-highlight enabled.
+    # https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md
+    MD013: false
 
 globs:
     - '**/*.md'
