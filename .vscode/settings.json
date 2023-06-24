@@ -47,6 +47,13 @@
 
 	},
 
+	"[typescript]": {
+
+		// Keep in sync with [EditorConfig][]!
+		"editor.insertSpaces": false,
+
+	},
+
 	// settings for [YAML][] content
 	"[yaml]": {
 
