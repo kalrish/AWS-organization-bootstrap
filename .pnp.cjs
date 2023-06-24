@@ -33,7 +33,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:27.2.2"],\
             ["globals", "npm:13.20.0"],\
             ["jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:29.5.0"],\
-            ["markdownlint-cli2", "npm:0.8.1"]\
+            ["markdownlint-cli2", "npm:0.8.1"],\
+            ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -831,7 +832,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:27.2.2"],\
             ["globals", "npm:13.20.0"],\
             ["jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:29.5.0"],\
-            ["markdownlint-cli2", "npm:0.8.1"]\
+            ["markdownlint-cli2", "npm:0.8.1"],\
+            ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5342,6 +5344,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/type-fest-npm-0.21.3-5ff2a9c6fd-e6b32a3b38.zip/node_modules/type-fest/",\
           "packageDependencies": [\
             ["type-fest", "npm:0.21.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-8d03db133e-6f0a9dca6b.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "HARD"\
         }]\
