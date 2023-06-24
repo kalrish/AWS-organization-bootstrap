@@ -1,0 +1,14 @@
+// [recommended extensions][Visual Studio Code workspace extension recommendations] for [Visual Studio Code][]
+// https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+
+{
+
+	// extensions that [Visual Studio Code][] should recommend for this workspace
+	"recommendations": [
+	],
+
+}
+
+
+// [Visual Studio Code]: https://code.visualstudio.com/
+// [Visual Studio Code workspace extension recommendations]: https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
