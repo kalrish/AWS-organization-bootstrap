@@ -20,6 +20,11 @@ However, native configuration is better.
 		"editor.insertSpaces": false,
 	},
 
+	"[yaml]": {
+		// Keep in sync with `../.editorconfig`!
+		"editor.tabSize": 4,
+	},
+
 }
 
 /*

@@ -12,4 +12,5 @@ insert_final_newline = true
 indent_style = tab
 
 [*.yaml]
+# Keep in sync with `.vscode/settings.json`!
 indent_size = 4
