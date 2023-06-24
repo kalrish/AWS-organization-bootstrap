@@ -7,6 +7,9 @@
 		"url": "https://www.djsp.eu/"
 	},
 	"description": "foo bar",
+	"engines": {
+		"node": ">= 16.20.0"
+	},
 	"files": [
 	],
 	"homepage": "https://github.com/kalrish/AWS-organization-bootstrap",
