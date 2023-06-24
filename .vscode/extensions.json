@@ -1,0 +1,10 @@
+// recommended extensions for Visual Studio Code
+// https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+
+{
+
+	// extensions which Visual Studio Code should recommend for this workspace
+	"recommendations": [
+	],
+
+}
