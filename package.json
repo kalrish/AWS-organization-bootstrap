@@ -6,6 +6,9 @@
 		"email": "david@djsp.eu",
 		"url": "https://www.djsp.eu/"
 	},
+	"bin": {
+		"AWS-organization-bootstrap": "dist/cli.js"
+	},
 	"description": "foo bar",
 	"devDependencies": {
 		"@eslint/js": "^8.43.0",
