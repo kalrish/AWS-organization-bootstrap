@@ -5,6 +5,7 @@
 
 	// extensions which Visual Studio Code should recommend for this workspace
 	"recommendations": [
+		"redhat.vscode-yaml",
 	],
 
 }
