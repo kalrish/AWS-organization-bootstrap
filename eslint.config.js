@@ -4,6 +4,9 @@ import js from "@eslint/js";
 
 export default [
 	{
+		ignores: [
+			"dist/**",
+		],
 		languageOptions: {
 			globals: {
 				// `nodeBuiltin` excludes CommonJS stuff
@@ -19,6 +22,9 @@ export default [
 			"**/__tests__/*.js",
 			"**/*.spec.js",
 			"**/*.test.js",
+		],
+		ignores: [
+			"dist/**",
 		],
 		plugins: {
 			"jest": jest,

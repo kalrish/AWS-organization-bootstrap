@@ -1,0 +1,23 @@
+{
+
+	"compilerOptions": {
+		"outDir": "dist",
+	},
+
+	// The setting [`include`][TSConfig include] supports patterns; [`files`][TSConfig files] does not.
+	"include": [
+		/*
+		This glob pattern will match files with the extensions `.ts`, `.tsx` and `.d.ts`, as explained in the [documentation][TSConfig include]:
+
+		> If a glob pattern doesn’t include a file extension, then only files with supported extensions are included (e.g. `.ts`, `.tsx`, and `.d.ts` by default, with `.js` and `.jsx` if [`allowJs`](https://www.typescriptlang.org/tsconfig#allowJs) is set to true).
+		*/
+		"src/**/*",
+	],
+
+}
+
+
+/*
+[TSConfig files]: https://www.typescriptlang.org/tsconfig#files
+[TSConfig include]: https://www.typescriptlang.org/tsconfig#include
+*/
