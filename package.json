@@ -9,6 +9,7 @@
 	"description": "foo bar",
 	"files": [
 	],
+	"homepage": "https://github.com/kalrish/AWS-organization-bootstrap",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kalrish/AWS-organization-bootstrap.git"
