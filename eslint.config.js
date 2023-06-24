@@ -27,6 +27,8 @@ const configurationForJavaScript = {
 		".pnp.loader.mjs",
 		// managed by [Yarn][]
 		".yarn/**",
+		// emitted by the [TypeScript transpiler][]
+		"dist/**",
 	],
 	languageOptions: {
 		globals: {
@@ -50,6 +52,8 @@ const configurationForJestTestFiles = {
 	ignores: [
 		// managed by [Yarn][]
 		".yarn/**",
+		// emitted by the [TypeScript transpiler][]
+		"dist/**",
 	],
 	plugins: {
 		"jest": jest,
@@ -69,5 +73,6 @@ export default configuration;
 
 // [ESLint]: https://eslint.org/
 // [Jest]: https://jestjs.io/
+// [TypeScript transpiler]: https://www.typescriptlang.org/docs/handbook/compiler-options
 // [Yarn]: https://yarnpkg.com/
 // [Yarn Plug'n'Play]: https://yarnpkg.com/features/pnp

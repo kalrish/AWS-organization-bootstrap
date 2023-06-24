@@ -1,0 +1,5 @@
+# emitted by the [TypeScript transpiler][]
+*.js
+
+
+# [TypeScript transpiler]: https://www.typescriptlang.org/docs/handbook/compiler-options
