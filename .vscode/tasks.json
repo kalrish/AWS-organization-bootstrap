@@ -31,5 +31,17 @@
 				".",
 			],
 		},
+		{
+			"label": "Check JavaScript and TypeScript with Jest",
+			"group": {
+				"kind": "test",
+			},
+			"type": "process",
+			"command": "npx",
+			"args": [
+				"--",
+				"jest",
+			],
+		},
 	],
 }
