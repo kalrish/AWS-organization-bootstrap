@@ -9,6 +9,7 @@
 	"description": "foo bar",
 	"devDependencies": {
 		"eslint": "^8.43.0",
+		"eslint-plugin-jest": "^27.2.2",
 		"globals": "^13.20.0",
 		"jest": "^29.5.0",
 		"markdownlint-cli2": "^0.8.1"
