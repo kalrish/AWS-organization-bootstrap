@@ -16,5 +16,20 @@
 				"markdownlint-cli2",
 			],
 		},
+		{
+			// "Run ESLint" instead of "Check JavaScript (and TypeScript) with ESLint" because ESLint can check more than JavaScript and TypeScript
+			"label": "Run ESLint",
+			"group": {
+				"kind": "test",
+			},
+			"type": "process",
+			"command": "npx",
+			"args": [
+				"--",
+				"eslint",
+				"--",
+				".",
+			],
+		},
 	],
 }
