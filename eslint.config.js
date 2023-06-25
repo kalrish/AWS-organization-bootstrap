@@ -87,10 +87,36 @@ const configurationForTypeScript = {
 	},
 };
 
+const configurationForTypeScriptJestTestFiles = {
+	files: [
+		"src/**/__tests__/*.ts",
+		"src/**/*.spec.ts",
+		"src/**/*.test.ts",
+	],
+	languageOptions: {
+		globals: {
+			// Node.js stuff like `process`, `URL`,…
+			// `nodeBuiltin` excludes CommonJS stuff
+			...globals.nodeBuiltin,
+		},
+		parser: tsParser,
+		parserOptions: {
+			project: true,
+		},
+	},
+	plugins: {
+		"jest": jest,
+	},
+	rules: {
+		...jest.configs.recommended.rules,
+	},
+};
+
 const configuration = [
 	configurationForJavaScript,
 	configurationForJestTestFiles,
 	configurationForTypeScript,
+	configurationForTypeScriptJestTestFiles,
 ];
 
 export default configuration;
