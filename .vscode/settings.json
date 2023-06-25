@@ -8,6 +8,10 @@
 // native configuration is preferable.
 
 {
+
+	// Keep in sync with [EditorConfig][]!
+	"files.eol": "\n",
+
 }
 
 // [EditorConfig]: https://editorconfig.org/
