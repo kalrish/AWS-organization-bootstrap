@@ -1,0 +1,8 @@
+# emitted by the [TypeScript transpiler][] for [Jest][] test files
+**/__tests__/
+*.spec.js
+*.test.js
+
+
+# [Jest]: https://jestjs.io/
+# [TypeScript transpiler]: https://www.typescriptlang.org/docs/handbook/compiler-options
