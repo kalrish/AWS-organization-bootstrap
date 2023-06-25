@@ -1,6 +1,8 @@
 import globals from "globals";
 import jest from "eslint-plugin-jest";
 import js from "@eslint/js";
+import tsParser from "@typescript-eslint/parser";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
 
 export default [
 	{
@@ -31,6 +33,27 @@ export default [
 		},
 		rules: {
 			...jest.configs.recommended.rules,
+		},
+	},
+	{
+		files: [
+			"src/**/*.ts",
+		],
+		languageOptions: {
+			globals: {
+				// `nodeBuiltin` excludes CommonJS stuff
+				...globals.nodeBuiltin,
+			},
+			parser: tsParser,
+			parserOptions: {
+				project: true,
+			},
+		},
+		plugins: {
+			"@typescript-eslint": tsPlugin,
+		},
+		rules: {
+			...tsPlugin.configs.recommended.rules,
 		},
 	},
 ];
