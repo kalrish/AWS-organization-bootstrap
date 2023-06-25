@@ -2,6 +2,7 @@
 // https://eslint.org/docs/latest/use/configure/configuration-files-new
 
 import globals from "globals";
+import jest from "eslint-plugin-jest";
 import js from "@eslint/js";
 
 const configurationForJavaScript = {
@@ -39,13 +40,34 @@ const configurationForJavaScript = {
 	},
 };
 
+const configurationForJestTestFiles = {
+	// [Jest][] runs tests in files named as follows:
+	files: [
+		"**/__tests__/*.js",
+		"**/*.spec.js",
+		"**/*.test.js",
+	],
+	ignores: [
+		// managed by [Yarn][]
+		".yarn/**",
+	],
+	plugins: {
+		"jest": jest,
+	},
+	rules: {
+		...jest.configs.recommended.rules,
+	},
+};
+
 const configuration = [
 	configurationForJavaScript,
+	configurationForJestTestFiles,
 ];
 
 export default configuration;
 
 
 // [ESLint]: https://eslint.org/
+// [Jest]: https://jestjs.io/
 // [Yarn]: https://yarnpkg.com/
 // [Yarn Plug'n'Play]: https://yarnpkg.com/features/pnp
