@@ -4,5 +4,17 @@
 {
 	"version": "2.0.0",
 	"tasks": [
+		{
+			"label": "Check Markdown documents with markdownlint-cli2",
+			"group": {
+				"kind": "test",
+			},
+			"type": "process",
+			"command": "npx",
+			"args": [
+				"--",
+				"markdownlint-cli2",
+			],
+		},
 	],
 }
