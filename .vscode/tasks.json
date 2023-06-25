@@ -35,5 +35,24 @@
 				".",
 			],
 		},
+		{
+			"label": "Check JavaScript and TypeScript with Jest",
+			"group": {
+				"kind": "test",
+			},
+			"type": "process",
+			"command": "corepack",
+			"args": [
+				"yarn",
+				"exec",
+				"--",
+				"jest",
+			],
+			"options": {
+				"env": {
+					"NODE_OPTIONS": "--experimental-vm-modules",
+				},
+			},
+		},
 	],
 }
