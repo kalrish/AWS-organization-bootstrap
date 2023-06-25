@@ -1,0 +1,4 @@
+# configuration for various editors and IDEs
+# https://editorconfig.org/
+
+root = true
