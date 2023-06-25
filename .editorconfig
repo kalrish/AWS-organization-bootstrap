@@ -9,6 +9,9 @@ end_of_line = lf
 # Keep in sync with `.vscode/settings.json`!
 insert_final_newline = true
 
+[*.{js,mjs}]
+indent_style = tab
+
 [*.json]
 # Keep in sync with `.vscode/settings.json`!
 indent_style = tab
