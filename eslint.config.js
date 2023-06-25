@@ -37,6 +37,29 @@ export default [
 	},
 	{
 		files: [
+			"src/**/__tests__/*.ts",
+			"src/**/*.spec.ts",
+			"src/**/*.test.ts",
+		],
+		languageOptions: {
+			globals: {
+				// `nodeBuiltin` excludes CommonJS stuff
+				...globals.nodeBuiltin,
+			},
+			parser: tsParser,
+			parserOptions: {
+				project: true,
+			},
+		},
+		plugins: {
+			"jest": jest,
+		},
+		rules: {
+			...jest.configs.recommended.rules,
+		},
+	},
+	{
+		files: [
 			"src/**/*.ts",
 		],
 		languageOptions: {
