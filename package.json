@@ -34,6 +34,7 @@
 	},
 	"scripts": {
 		"prepare": "tsc",
+		"pretest": "npm run -- prepare",
 		"test": "jest"
 	},
 	"type": "module"
