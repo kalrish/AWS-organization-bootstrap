@@ -4,6 +4,8 @@
 import globals from "globals";
 import jest from "eslint-plugin-jest";
 import js from "@eslint/js";
+import tsParser from "@typescript-eslint/parser";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
 
 const configurationForJavaScript = {
 	// The three patterns are the default:
@@ -63,9 +65,32 @@ const configurationForJestTestFiles = {
 	},
 };
 
+const configurationForTypeScript = {
+	files: [
+		"src/**/*.ts",
+	],
+	languageOptions: {
+		globals: {
+			// `nodeBuiltin` excludes CommonJS stuff
+			...globals.nodeBuiltin,
+		},
+		parser: tsParser,
+		parserOptions: {
+			project: true,
+		},
+	},
+	plugins: {
+		"@typescript-eslint": tsPlugin,
+	},
+	rules: {
+		...tsPlugin.configs.recommended.rules,
+	},
+};
+
 const configuration = [
 	configurationForJavaScript,
 	configurationForJestTestFiles,
+	configurationForTypeScript,
 ];
 
 export default configuration;
