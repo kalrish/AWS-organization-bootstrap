@@ -9,6 +9,7 @@
 	"description": "foo bar",
 	"devDependencies": {
 		"@eslint/js": "^8.43.0",
+		"@tsconfig/node16": "^16.1.0",
 		"@tsconfig/strictest": "^2.0.1",
 		"eslint": "^8.43.0",
 		"eslint-plugin-jest": "^27.2.2",
