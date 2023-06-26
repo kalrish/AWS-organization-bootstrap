@@ -15,6 +15,13 @@
 	// Keep in sync with [EditorConfig][]!
 	"files.insertFinalNewline": true,
 
+	"search.exclude": {
+		// CommonJS loader for [Yarn Plug'n'Play][]
+		".pnp.cjs": true,
+		// ECMAScript loader for [Yarn Plug'n'Play][]
+		".pnp.loader.mjs": true,
+	},
+
 	// settings for [JSON][] content
 	"[json]": {
 
@@ -48,3 +55,4 @@
 // [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 // [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
 // [YAML]: https://yaml.org/
+// [Yarn Plug'n'Play]: https://yarnpkg.com/features/pnp
