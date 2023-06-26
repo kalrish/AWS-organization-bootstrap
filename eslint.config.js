@@ -1,6 +1,7 @@
 // configuration for [ESLint][]
 // https://eslint.org/docs/latest/use/configure/configuration-files-new
 
+import globals from "globals";
 import js from "@eslint/js";
 
 const configurationForJavaScript = {
@@ -26,6 +27,13 @@ const configurationForJavaScript = {
 		// managed by [Yarn][]
 		".yarn/**",
 	],
+	languageOptions: {
+		globals: {
+			// Node.js stuff like `process`, `URL`,…
+			// `nodeBuiltin` excludes CommonJS stuff
+			...globals.nodeBuiltin,
+		},
+	},
 	rules: {
 		...js.configs.recommended.rules,
 	},
