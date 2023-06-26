@@ -11,6 +11,9 @@
 
 	"eslint.experimental.useFlatConfig": true,
 
+	// The [extension `dbaeumer.vscode-eslint`][Visual Studio Code extension `dbaeumer.vscode-eslint`] doesn't by itself support [Yarn Plug'n'Play][Yarn Plug'n'Play].
+	"eslint.nodePath": ".yarn/sdks",
+
 	// Keep in sync with [EditorConfig][]!
 	"files.eol": "\n",
 
