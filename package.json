@@ -8,6 +8,7 @@
 	},
 	"description": "foo bar",
 	"devDependencies": {
+		"@eslint/js": "^8.43.0",
 		"eslint": "^8.43.0",
 		"markdownlint-cli2": "^0.8.1"
 	},
