@@ -11,6 +11,7 @@ __metadata:
   dependencies:
     "@eslint/js": ^8.43.0
     eslint: ^8.43.0
+    globals: ^13.20.0
     markdownlint-cli2: ^0.8.1
   languageName: unknown
   linkType: soft
@@ -526,7 +527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.19.0":
+"globals@npm:^13.19.0, globals@npm:^13.20.0":
   version: 13.20.0
   resolution: "globals@npm:13.20.0"
   dependencies:

@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@eslint/js", "npm:8.43.0"],\
             ["eslint", "npm:8.43.0"],\
+            ["globals", "npm:13.20.0"],\
             ["markdownlint-cli2", "npm:0.8.1"]\
           ],\
           "linkType": "SOFT"\
@@ -42,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@djsp/aws-organization-bootstrap", "workspace:."],\
             ["@eslint/js", "npm:8.43.0"],\
             ["eslint", "npm:8.43.0"],\
+            ["globals", "npm:13.20.0"],\
             ["markdownlint-cli2", "npm:0.8.1"]\
           ],\
           "linkType": "SOFT"\
