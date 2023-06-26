@@ -22,6 +22,8 @@
 		".pnp.cjs": true,
 		// ECMAScript loader for [Yarn Plug'n'Play][]
 		".pnp.loader.mjs": true,
+		// [Yarn editor SDK][Yarn editor SDKs] for TypeScript
+		".yarn/sdks/typescript": true,
 	},
 
 	"[javascript]": {
@@ -71,4 +73,5 @@
 // [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 // [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
 // [YAML]: https://yaml.org/
+// [Yarn editor SDKs]: https://yarnpkg.com/getting-started/editor-sdks
 // [Yarn Plug'n'Play]: https://yarnpkg.com/features/pnp
