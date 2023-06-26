@@ -424,6 +424,7 @@ __metadata:
   resolution: "@djsp/aws-organization-bootstrap@workspace:."
   dependencies:
     "@eslint/js": ^8.43.0
+    "@jest/globals": ^29.5.0
     "@tsconfig/node16": ^16.1.0
     "@tsconfig/strictest": ^2.0.1
     "@typescript-eslint/eslint-plugin": ^5.60.1
