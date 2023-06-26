@@ -22,6 +22,8 @@
 		".pnp.cjs": true,
 		// ECMAScript loader for [Yarn Plug'n'Play][]
 		".pnp.loader.mjs": true,
+		// [Yarn editor SDK][Yarn editor SDKs] for ESLint
+		".yarn/sdks/eslint": true,
 		// [Yarn editor SDK][Yarn editor SDKs] for TypeScript
 		".yarn/sdks/typescript": true,
 	},
