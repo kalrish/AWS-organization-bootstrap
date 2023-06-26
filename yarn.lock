@@ -9,6 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@djsp/aws-organization-bootstrap@workspace:."
   dependencies:
+    "@eslint/js": ^8.43.0
     eslint: ^8.43.0
     markdownlint-cli2: ^0.8.1
   languageName: unknown
@@ -49,7 +50,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.43.0":
+"@eslint/js@npm:8.43.0, @eslint/js@npm:^8.43.0":
   version: 8.43.0
   resolution: "@eslint/js@npm:8.43.0"
   checksum: 580487a09c82ac169744d36e4af77bc4f582c9a37749d1e9481eb93626c8f3991b2390c6e4e69e5642e3b6e870912b839229a0e23594fae348156ea5a8ed7e2e
