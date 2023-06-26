@@ -5,6 +5,7 @@
 
 	// extensions that [Visual Studio Code][] should recommend for this workspace
 	"recommendations": [
+		"arcanis.vscode-zipfs",
 		"DavidAnson.vscode-markdownlint",
 		"dbaeumer.vscode-eslint",
 		"redhat.vscode-yaml",
