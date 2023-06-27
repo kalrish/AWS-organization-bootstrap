@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.43.0"],\
+            ["@tsconfig/strictest", "npm:2.0.1"],\
             ["eslint", "npm:8.43.0"],\
             ["eslint-plugin-jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:27.2.2"],\
             ["globals", "npm:13.20.0"],\
@@ -828,6 +829,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@djsp/aws-organization-bootstrap", "workspace:."],\
             ["@eslint/js", "npm:8.43.0"],\
+            ["@tsconfig/strictest", "npm:2.0.1"],\
             ["eslint", "npm:8.43.0"],\
             ["eslint-plugin-jest", "virtual:9e781d41cd86e7e7cba4688332191d606630b686538f25eb72b3e5afd85f06247dfd9a30216f4452cb68af3bb0f3cf50cb74c3eb9ef5f1d500ad0425b87a0be9#npm:27.2.2"],\
             ["globals", "npm:13.20.0"],\
@@ -1375,6 +1377,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-ad87447820.zip/node_modules/@tootallnate/once/",\
           "packageDependencies": [\
             ["@tootallnate/once", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@tsconfig/strictest", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@tsconfig-strictest-npm-2.0.1-422e2dbef4-3a9b913e06.zip/node_modules/@tsconfig/strictest/",\
+          "packageDependencies": [\
+            ["@tsconfig/strictest", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\

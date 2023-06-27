@@ -415,6 +415,7 @@ __metadata:
   resolution: "@djsp/aws-organization-bootstrap@workspace:."
   dependencies:
     "@eslint/js": ^8.43.0
+    "@tsconfig/strictest": ^2.0.1
     eslint: ^8.43.0
     eslint-plugin-jest: ^27.2.2
     globals: ^13.20.0
@@ -876,6 +877,13 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: ad87447820dd3f24825d2d947ebc03072b20a42bfc96cbafec16bff8bbda6c1a81fcb0be56d5b21968560c5359a0af4038a68ba150c3e1694fe4c109a063bed8
+  languageName: node
+  linkType: hard
+
+"@tsconfig/strictest@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@tsconfig/strictest@npm:2.0.1"
+  checksum: 3a9b913e06c20fee0a002fc22a925370525dd917853dee2e0082de763b10a61a69d72d60d02e243629da94b3e0b98843469a3b063c0ab2a5d6716183867dd114
   languageName: node
   linkType: hard
 
