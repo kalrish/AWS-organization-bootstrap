@@ -1,0 +1,9 @@
+# According to the [Yarn FAQ][], this is:
+#
+# > […] an optimization file that you shouldn't ever have to commit.
+# > It simply stores the exact state of your project
+# > so that the next commands can boot without having to resolve your workspaces all over again.
+/install-state.gz
+
+
+# [Yarn FAQ]: https://yarnpkg.com/getting-started/qa
