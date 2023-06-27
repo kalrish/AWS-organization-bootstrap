@@ -26,6 +26,15 @@
 		".yarn/sdks/typescript": true,
 	},
 
+	// [Visual Studio Code][] doesn't apply the setting `typescript.tsdk` automatically.
+	// It _can_ ask users whether it should be applied, but doesn't unless configured to do so.
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+
+	// [Visual Studio Code][] powers [IntelliSense][Visual Studio Code IntelliSense] with its built-in TypeScript by default,
+	// which doesn't support [Yarn Plug'n'Play][].
+	// The [Yarn editor SDK][Yarn editor SDKs] for TypeScript fixes that.
+	"typescript.tsdk": ".yarn/sdks/typescript/lib",
+
 	"[javascript]": {
 
 		// Keep in sync with [EditorConfig][]!
@@ -71,6 +80,7 @@
 // [JSON with Comments]: https://code.visualstudio.com/docs/languages/json#_json-with-comments
 // [Visual Studio Code]: https://code.visualstudio.com/
 // [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+// [Visual Studio Code IntelliSense]: https://code.visualstudio.com/docs/editor/intellisense
 // [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
 // [YAML]: https://yaml.org/
 // [Yarn editor SDKs]: https://yarnpkg.com/getting-started/editor-sdks
