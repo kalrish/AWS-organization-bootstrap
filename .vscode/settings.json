@@ -9,6 +9,8 @@
 
 {
 
+	"eslint.experimental.useFlatConfig": true,
+
 	// Keep in sync with [EditorConfig][]!
 	"files.eol": "\n",
 
