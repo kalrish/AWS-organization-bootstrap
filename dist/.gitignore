@@ -1,5 +1,6 @@
 # emitted by the [TypeScript transpiler][]
 *.js
+*.d.ts
 
 
 # [TypeScript transpiler]: https://www.typescriptlang.org/docs/handbook/compiler-options

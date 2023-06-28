@@ -7,6 +7,10 @@
 
 	"compilerOptions": {
 
+		// foobar
+		"declaration": true,
+		// https://www.typescriptlang.org/tsconfig#declaration
+
 		// Emit transpiled JavaScript to a dedicated directory, separate from the source
 		"outDir": "dist",
 		// https://www.typescriptlang.org/tsconfig#outDir
