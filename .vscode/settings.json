@@ -23,10 +23,19 @@
 
 	},
 
+	// settings for [JSON with Comments][] content
+	"[jsonc]": {
+
+		// Keep in sync with [EditorConfig][]!
+		"editor.insertSpaces": false,
+
+	},
+
 }
 
 // [EditorConfig]: https://editorconfig.org/
 // [JSON]: https://www.json.org/
+// [JSON with Comments]: https://code.visualstudio.com/docs/languages/json#_json-with-comments
 // [Visual Studio Code]: https://code.visualstudio.com/
 // [Visual Studio Code extension EditorConfig.EditorConfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 // [Visual Studio Code workspace settings]: https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
