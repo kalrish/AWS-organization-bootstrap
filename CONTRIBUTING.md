@@ -33,6 +33,14 @@ Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] config
 
 [Visual Studio Code][] extensions recommended for this workspace/project in `.vscode/extensions.json`
 
+## Building
+
+transpile JavaScript into [TypeScript][]:
+
+```Shell
+corepack yarn exec -- tsc
+```
+
 ## Testing
 
 ### Markdown
@@ -81,5 +89,6 @@ see [Jest with ECMAScript modules][Jest ECMAScript modules]
 [Node.js option --experimental-vm-modules]: https://nodejs.org/api/cli.html#--experimental-vm-modules
 [Node.js packages]: https://nodejs.org/api/packages.html
 [Node.js packages field packageManager]: https://nodejs.org/api/packages.html#packagemanager
+[TypeScript]: https://www.typescriptlang.org/
 [Visual Studio Code]: https://code.visualstudio.com/
 [Yarn]: https://yarnpkg.com/
