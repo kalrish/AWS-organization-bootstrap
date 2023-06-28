@@ -25,7 +25,13 @@ corepack yarn …
 
 Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] configured in the [field `packageManager`][Node.js packages field packageManager].
 
+## Coding
 
+[EditorConfig][] for various editors and [IDEs][integrated development environments]
+
+
+[EditorConfig]: https://editorconfig.org/
+[integrated development environments]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [Node.js]: https://nodejs.org/
 [Node.js Corepack]: https://nodejs.org/api/corepack.html
 [Node.js Corepack enablement]: https://nodejs.org/api/corepack.html#enabling-the-feature
