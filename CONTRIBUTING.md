@@ -43,8 +43,19 @@ Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] config
 corepack yarn exec -- markdownlint-cli2
 ```
 
+### JavaScript and TypeScript
+
+#### ESLint
+
+[ESLint][]:
+
+```Shell
+corepack yarn exec -- eslint -- .
+```
+
 
 [EditorConfig]: https://editorconfig.org/
+[ESLint]: https://eslint.org/
 [integrated development environments]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2#readme
 [Node.js]: https://nodejs.org/
