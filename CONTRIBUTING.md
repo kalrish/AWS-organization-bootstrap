@@ -33,9 +33,20 @@ Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] config
 
 [Visual Studio Code][] extensions recommended for this workspace/project in `.vscode/extensions.json`
 
+## Testing
+
+### Markdown
+
+[`markdownlint-cli2`][markdownlint-cli2]:
+
+```Shell
+corepack yarn exec -- markdownlint-cli2
+```
+
 
 [EditorConfig]: https://editorconfig.org/
 [integrated development environments]: https://en.wikipedia.org/wiki/Integrated_development_environment
+[markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2#readme
 [Node.js]: https://nodejs.org/
 [Node.js Corepack]: https://nodejs.org/api/corepack.html
 [Node.js Corepack enablement]: https://nodejs.org/api/corepack.html#enabling-the-feature
