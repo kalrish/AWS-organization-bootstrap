@@ -29,6 +29,10 @@ Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] config
 
 [EditorConfig][] for various editors and [IDEs][integrated development environments]
 
+### Visual Studio Code
+
+[Visual Studio Code][] extensions recommended for this workspace/project in `.vscode/extensions.json`
+
 
 [EditorConfig]: https://editorconfig.org/
 [integrated development environments]: https://en.wikipedia.org/wiki/Integrated_development_environment
@@ -37,4 +41,5 @@ Either way, [Corepack][Node.js Corepack] will use the version of [Yarn][] config
 [Node.js Corepack enablement]: https://nodejs.org/api/corepack.html#enabling-the-feature
 [Node.js packages]: https://nodejs.org/api/packages.html
 [Node.js packages field packageManager]: https://nodejs.org/api/packages.html#packagemanager
+[Visual Studio Code]: https://code.visualstudio.com/
 [Yarn]: https://yarnpkg.com/
